@@ -1,0 +1,131 @@
+{
+  "tables": {
+    "inventory": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "family",
+        "grade",
+        "condition",
+        "qty",
+        "age",
+        "site",
+        "available_at"
+      ]
+    },
+    "observations": {
+      "key": [
+        "specimen",
+        "seen_on"
+      ],
+      "columns": [
+        "specimen",
+        "family",
+        "grade",
+        "condition",
+        "entry_age",
+        "last_ok",
+        "first_failed",
+        "last_seen",
+        "end_reason",
+        "seen_on",
+        "sample_prob"
+      ]
+    },
+    "contracts": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "grade",
+        "condition",
+        "need",
+        "order_day",
+        "depart_day",
+        "travel",
+        "duration",
+        "risk_limit",
+        "family_cap",
+        "mix_allowed",
+        "warranty_term"
+      ]
+    },
+    "warranty": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "from",
+        "claim_until",
+        "unit"
+      ]
+    },
+    "picks": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "contract",
+        "lot",
+        "qty",
+        "confirmed",
+        "shipped",
+        "evidence_asof"
+      ]
+    },
+    "rechecks": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "day",
+        "cap",
+        "lot_options"
+      ]
+    },
+    "historical_orders": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "family",
+        "grade",
+        "condition",
+        "asof",
+        "shipment_age",
+        "duration",
+        "qty",
+        "consumed",
+        "failed",
+        "reported"
+      ]
+    }
+  },
+  "links": [
+    [
+      "contracts",
+      "warranty_term",
+      "warranty",
+      "id"
+    ],
+    [
+      "picks",
+      "lot",
+      "inventory",
+      "id"
+    ],
+    [
+      "picks",
+      "contract",
+      "contracts",
+      "id"
+    ]
+  ]
+}

@@ -1,0 +1,5 @@
+id,grade,condition,need,order_day,depart_day,travel,duration,risk_limit,family_cap,mix_allowed,warranty_term
+C01,A,normal,38,1,5,4,26,0.08,35,1,W1
+C02,A,normal,32,1,4,5,9,0.1,32,0,W1
+C03,A,humid,42,2,5,6,19,0.15,28,1,W2
+C04,B,normal,30,2,6,4,28,0.12,30,0,W2

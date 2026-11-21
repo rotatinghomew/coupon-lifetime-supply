@@ -1,0 +1,3 @@
+id,contract,lot,qty,confirmed,shipped,evidence_asof
+P01,C01,I01,28,1,0,2026-03-23
+P02,C03,I03,20,1,1,2026-03-23

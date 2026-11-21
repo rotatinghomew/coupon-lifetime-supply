@@ -1,0 +1,7 @@
+id,family,grade,condition,qty,age,site,available_at
+I01,F01,A,normal,39,30,N,1
+I02,F01,A,normal,38,45,N,1
+I03,F02,A,humid,30,40,S,1
+I04,F03,B,normal,51,25,N,1
+I05,F04,A,humid,28,25,S,2
+I06,F05,A,normal,18,14,S,2

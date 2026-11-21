@@ -1,0 +1,5 @@
+id,family,grade,condition,asof,shipment_age,duration,qty,consumed,failed,reported
+H1,F01,A,normal,2026-03-08,38,23,18,18,2,2026-04-13
+H2,F02,A,humid,2026-03-13,42,15,17,13,2,2026-04-12
+H3,F03,B,normal,2026-03-18,25,30,51,51,2,2026-04-20
+H4,F04,A,humid,2026-03-23,30,21,34,24,4,2026-04-18
