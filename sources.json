@@ -89,6 +89,33 @@
         "lot_options"
       ]
     },
+    "lab_options": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "recheck",
+        "lot",
+        "consume",
+        "read_at",
+        "tested_age",
+        "condition"
+      ]
+    },
+    "supplemental": {
+      "key": [
+        "test",
+        "received"
+      ],
+      "columns": [
+        "test",
+        "received",
+        "checked",
+        "failed",
+        "grade"
+      ]
+    },
     "historical_orders": {
       "key": [
         "id"
@@ -125,6 +152,24 @@
       "picks",
       "contract",
       "contracts",
+      "id"
+    ],
+    [
+      "lab_options",
+      "recheck",
+      "rechecks",
+      "id"
+    ],
+    [
+      "lab_options",
+      "lot",
+      "inventory",
+      "id"
+    ],
+    [
+      "supplemental",
+      "test",
+      "lab_options",
       "id"
     ]
   ]

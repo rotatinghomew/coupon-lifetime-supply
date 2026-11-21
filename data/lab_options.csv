@@ -1,0 +1,5 @@
+id,recheck,lot,consume,read_at,tested_age,condition
+T1,A01,I01,6,3,34,normal
+T2,A02,I02,8,5,58,normal
+T3,A02,I03,7,6,72,humid
+T4,A03,I06,5,5,25,normal
